@@ -40,9 +40,9 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name: Hanshika Varthini R
+### Name:N.Bhararth
 
-### Register Number: 212223240046
+### Register Number: 212223230030
 
 ```
 import torch as t
@@ -76,8 +76,8 @@ initial_bias = model.linear.bias.item()
 
 print(f"Initial Weight: {initial_weight:.2f}")
 print(f"Initial Bias: {initial_bias:.2f}")
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("\nName: N.Bharath")
+print("Register No: 212223230030")
 print(f'Initial Weight: {initial_weight:.8f}, Initial Bias: {initial_bias:.8f}\n')
 
 loss_function = nn.MSELoss()
@@ -106,8 +106,8 @@ plt.show()
 
 final_weight = model.linear.weight.item()
 final_bias = model.linear.bias.item()
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("\nName: N.Bharath")
+print("Register No: 212223230030")
 print(f'Final Weight: {final_weight:.8f}, Final Bias: {final_bias:.8f}\n')
 
 x1 = t.tensor([X.min().item(),X.max().item()])
@@ -123,8 +123,8 @@ plt.show()
 
 x_new = t.tensor([[120.0]])
 y_new_pred = model(x_new).item()
-print("\nName: Hanshika Varthini R")
-print("Register No: 212223240046")
+print("\nName: N.Bharath")
+print("Register No: 212223230030")
 print(f"\nPrediction for x = 120:  {y_new_pred:.8f}")
 
 ```
