@@ -86,9 +86,9 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name: Hanshika Varthini R
+### Name: N.BHARATH
 
-### Register Number: 212223240046
+### Register Number: 212223230030
 
 ```
 import torch
