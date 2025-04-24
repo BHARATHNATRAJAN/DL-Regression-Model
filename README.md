@@ -41,56 +41,10 @@ Use the trained model to predict  for a new input value .
 ## PROGRAM
 
 ### Name: N.BHARATH
-### Register Number: 212223230030
-
-```
-# Developing a Neural Network Regression Model
-
-## AIM
-To develop a neural network regression model for the given dataset.
-
-## THEORY
-Regression problems involve predicting a continuous output variable based on input features. Traditional linear regression models often struggle with complex patterns in data. Neural networks, specifically feedforward neural networks, can capture these complex relationships by using multiple layers of neurons and activation functions. In this experiment, a neural network model is introduced with a single linear layer that learns the parameters weight and bias using gradient descent.
-
-## Neural Network Model
-Include the neural network model diagram.
-
-## DESIGN STEPS
-### STEP 1: Generate Dataset
-
-Create input values  from 1 to 50 and add random noise to introduce variations in output values .
-
-### STEP 2: Initialize the Neural Network Model
-
-Define a simple linear regression model using torch.nn.Linear() and initialize weights and bias values randomly.
-
-### STEP 3: Define Loss Function and Optimizer
-
-Use Mean Squared Error (MSE) as the loss function and optimize using Stochastic Gradient Descent (SGD) with a learning rate of 0.001.
-
-### STEP 4: Train the Model
-
-Run the training process for 100 epochs, compute loss, update weights and bias using backpropagation.
-
-### STEP 5: Plot the Loss Curve
-
-Track the loss function values across epochs to visualize convergence.
-
-### STEP 6: Visualize the Best-Fit Line
-
-Plot the original dataset along with the learned linear model.
-
-### STEP 7: Make Predictions
-
-Use the trained model to predict  for a new input value .
-
-## PROGRAM
-
-### Name: N.BHARATH
 
 ### Register Number: 212223230030
 
-```
+```python
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
@@ -170,7 +124,7 @@ plt.show()
 x_new = torch.tensor([[120.0]])
 y_new_pred = model(x_new).item()
 
-print("\nName: N.BHARATH")
+print("\nName: N.BHARATH)
 print("Register No: 212223230030")
 print(f"\nPrediction for x = 120: {y_new_pred:.8f}")
 
@@ -179,40 +133,22 @@ torch.save(model.state_dict(), 'linear_regression_model.pth')
 print("\nModel saved as 'linear_regression_model.pth'")
 
 
-
 ```
 
 ### Dataset Information
 
-![Screenshot 2025-04-24 090133](https://github.com/user-attachments/assets/8f68c6be-e35d-4fa0-bbc6-89c181e7f261)
-
-
-### OUTPUT
-### Training Loss Vs Iteration Plot
-![Screenshot 2025-04-24 090329](https://github.com/user-attachments/assets/b0ccb0f7-674a-4471-8463-c899800625f0)
-
-### Best Fit line plot
-
-### New Sample Data Prediction
-![Screenshot 2025-04-17 082121](https://github.com/user-attachments/assets/b5e70831-6be1-4398-9a9c-52695dd7c6c2)
-
-## RESULT
-Thus, a neural network regression model was successfully developed and trained using PyTorch.
-
-```
-
-### Dataset Information
-
-![Screenshot 2025-04-17 081813](https://github.com/user-attachments/assets/6d24003b-67c0-4d21-a7b1-8f29d5ad61ce)
+![Screenshot 2025-04-24 090133](https://github.com/user-attachments/assets/4306060d-f406-4fe9-a8b4-8032a9d06d76)
 
 ### OUTPUT
-### Training Loss Vs Iteration Plot
-![Screenshot 2025-04-17 081754](https://github.com/user-attachments/assets/252d14ff-ec3a-4270-9ed5-41b2f4a6aa09)
-### Best Fit line plot
-![Screenshot 2025-04-24 090420](https://github.com/user-attachments/assets/92577444-d891-4489-9ef9-c2fdd66d1474)
+
+![Screenshot 2025-04-24 090329](https://github.com/user-attachments/assets/bd410b8f-fe4d-4cf4-a03c-58d0114670fc)
+
+![Screenshot 2025-04-24 090420](https://github.com/user-attachments/assets/8d7b6046-ff83-4e14-8d9e-8558cdac0a7d)
+
 
 ### New Sample Data Prediction
-![Screenshot 2025-04-17 082121](https://github.com/user-attachments/assets/b5e70831-6be1-4398-9a9c-52695dd7c6c2)
+![Screenshot 2025-03-28 160311](https://github.com/user-attachments/assets/8f0a2f00-fe9e-4cba-896f-a53a4f6c54e4)
+
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
