@@ -147,7 +147,8 @@ print("\nModel saved as 'linear_regression_model.pth'")
 
 
 ### New Sample Data Prediction
-![Screenshot 2025-03-28 160311](https://github.com/user-attachments/assets/8f0a2f00-fe9e-4cba-896f-a53a4f6c54e4)
+![Screenshot 2025-04-24 091304](https://github.com/user-attachments/assets/f0d84da3-21be-4d73-8aff-c20139adbff6)
+
 
 
 ## RESULT
